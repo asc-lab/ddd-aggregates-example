@@ -1,0 +1,7 @@
+package pl.altkomsoftware.lab.ebidder.listings.domain;
+
+public class BusinessException extends RuntimeException {
+    public BusinessException(String msg) {
+        super(msg);
+    }
+}
